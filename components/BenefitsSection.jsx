@@ -6,12 +6,12 @@ export default function BenefitsSection() {
       <section className={styles.benefits}>
          <div>
             <ul>
-               <li><i class="fa-solid fa-circle-check circleCheck"></i>Domínio personalizado</li>
-               <li><i class="fa-solid fa-circle-check"></i>Hospedagem</li>
-               <li><i class="fa-solid fa-circle-check"></i>Site Responsivo</li>
-               <li><i class="fa-solid fa-circle-check"></i>Redes sociais</li>
-               <li><i class="fa-solid fa-circle-check"></i>Chat Online</li>
-               <li><i class="fa-solid fa-circle-check"></i>Blog integrado</li>
+               <li><i className="fa-solid fa-circle-check circleCheck"></i>Domínio personalizado</li>
+               <li><i className="fa-solid fa-circle-check"></i>Hospedagem</li>
+               <li><i className="fa-solid fa-circle-check"></i>Site Responsivo</li>
+               <li><i className="fa-solid fa-circle-check"></i>Redes sociais</li>
+               <li><i className="fa-solid fa-circle-check"></i>Chat Online</li>
+               <li><i className="fa-solid fa-circle-check"></i>Blog integrado</li>
             </ul>
          </div>
          <div className={styles.item}>
