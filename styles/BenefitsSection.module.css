@@ -1,0 +1,36 @@
+.benefits {
+   display: flex;
+   justify-content: center;
+   padding-top: 150px;
+}
+
+.benefits div {
+   padding: 0 3rem;
+}
+
+.benefits ul {
+   list-style: none;
+   padding-top: 35px;
+}
+
+.benefits li {
+   font-size: 2rem;
+   font-family: var(--roboto);
+   padding: 1rem 0;
+}
+
+.benefits i {
+   color: var(--primary);
+   margin: 0 1rem ;
+}
+
+@media screen and (max-width: 768px){
+   .benefits {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .item {
+      order: -1; 
+    }
+}

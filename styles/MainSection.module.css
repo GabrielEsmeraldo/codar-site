@@ -1,0 +1,39 @@
+.mainSection {
+   padding-top: 65px;
+   display: flex;
+   justify-content: center;
+}
+
+.mainSection div {
+   padding: 30px;
+}
+
+.mainSection h2 {
+   font-size: 5rem;
+   color: var(--primary);
+   padding-bottom: 20px;
+}
+
+.mainSection h3 {
+   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+   .mainSection {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .contentGroup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .contentGroup h2, 
+   .contentGroup h3 {
+      text-align: center;
+   }
+}

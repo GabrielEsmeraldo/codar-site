@@ -1,0 +1,26 @@
+.comments {
+   max-width: 347px;
+   display: flex;
+   margin: 1.5rem;
+   padding: 1.5rem;
+   background-color: rgba(128, 128, 128, 0.219);
+   border-radius: 1rem;
+}
+
+.comments h2{
+   font-size: 2.5rem;
+}
+
+.comments h3{
+   font-size: 2rem;
+}
+
+.comments p{
+   font-size: 1.5rem;
+   
+}
+
+.imageContainer {
+   min-width: 100px;
+}
+

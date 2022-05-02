@@ -1,0 +1,10 @@
+.btn {
+   font-size: 2rem;
+   font-family: var(--roboto);
+   font-weight: 400;
+   background-color: var(--primary);
+   border-radius: 1rem;
+   color: white;
+   padding: 0.5rem 3rem;
+   border-style: none;
+}
